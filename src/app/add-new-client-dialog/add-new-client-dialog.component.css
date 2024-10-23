@@ -1,0 +1,21 @@
+.full-width {
+  width: 100%;
+}
+
+.name-fields {
+  display: flex;
+  justify-content: space-between; /* Space between the fields */
+}
+
+.flex-field {
+  flex: 1; /* Each field takes equal space */
+  margin-right: 10px; /* Add some space between the fields */
+}
+
+.flex-field:last-child {
+  margin-right: 0; /* Remove margin for the last field */
+}
+
+.full-width {
+  width: 100%;
+}
